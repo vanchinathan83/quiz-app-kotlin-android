@@ -55,11 +55,66 @@ object Constants {
             "New Zealand",
             4
         )
+        val q6 = Question(
+                1,
+                "What country does the flag belong to?",
+                R.drawable.ic_flag_of_denmark,
+                "Vietnam",
+                "United Kingdom",
+                "Denmark",
+                "Namibia",
+                3
+        )
+        val q7 = Question(
+                1,
+                "What country does the flag belong to?",
+                R.drawable.ic_flag_of_fiji,
+                "Bolivia",
+                "Guatamala",
+                "Lithuania",
+                "Fiji",
+                4
+        )
+        val q8 = Question(
+                1,
+                "What country does the flag belong to?",
+                R.drawable.ic_flag_of_kuwait,
+                "Kuwait",
+                "Egypt",
+                "Iran",
+                "New Zealand",
+                1
+        )
+        val q9 = Question(
+                1,
+                "What country does the flag belong to?",
+                R.drawable.ic_flag_of_germany,
+                "Belgium",
+                "Germany",
+                "Uganda",
+                "New Zealand",
+                2
+        )
+        val q10 = Question(
+                1,
+                "What country does the flag belong to?",
+                R.drawable.ic_flag_of_australia,
+                "Australia",
+                "New Zealand",
+                "Canada",
+                "Virgin Islands",
+                1
+        )
         questions.add(q1)
         questions.add(q2)
         questions.add(q3)
         questions.add(q4)
         questions.add(q5)
+        questions.add(q6)
+        questions.add(q7)
+        questions.add(q8)
+        questions.add(q9)
+        questions.add(q10)
 
         return questions
     }
